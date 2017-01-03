@@ -11,3 +11,14 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# Some CD Shortcuts:
+alias hls='cd ~/Development/GitHub/panter/hls-014/src/main/frontend/'
+alias bsc='cd ~/Development/GitHub/remolueoend/OBPM/api'
+alias modo='cd ~/Development/gitlab/ksa/MODO'
+alias mood='cd ~/Development/GitHub/mood/server'
+alias radia='cd ~/Development/gitlab/ksa/RadIA'
+
+# Bugfix for Python UTF-8 issues:
+export LC_ALL=en_GB.UTF-8
+export LANG=en_GB.UTF-8
