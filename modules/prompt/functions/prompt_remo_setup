@@ -123,7 +123,7 @@ function prompt_remo_setup {
   zstyle ':prezto:module:git:info:position' format ' %%B%F{13}%p%f%%b'
   zstyle ':prezto:module:git:info:renamed' format ' %%B%F{5}➜%f%%b'
   zstyle ':prezto:module:git:info:stashed' format ' %%B%F{6}▵%f%%b'
-  zstyle ':prezto:module:git:info:unmerged' format ' %%B%F{3}═%f%%b'
+  zstyle ':prezto:module:git:info:unmerged' format ' 🙏 '
   zstyle ':prezto:module:git:info:untracked' format ' %%B%F{3}✭%f%%b'
   zstyle ':prezto:module:git:info:dirty' format ' 💩 '
   zstyle ':prezto:module:git:info:clean' format ' 🎉 '
